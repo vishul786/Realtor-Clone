@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header>
+        <Header/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/profile" element={<Profile/>}/>
@@ -18,8 +18,7 @@ function App() {
           <Route path="/sign-up" element={<SignUp/>}/>
           <Route path="/forgot-password" element={<ForgotPassword/>}/>
           <Route path="/offers" element={<Offers/>}/>
-        </Routes>
-        </Header>
+        </Routes>       
       </Router>
     </>
   );
